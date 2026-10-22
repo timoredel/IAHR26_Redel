@@ -85,16 +85,12 @@ footer{margin-top:40px;padding:24px 0 40px;border-top:1px solid var(--line);colo
     <div class="tag">CTR Summer Program 2026 · Stanford University</div>
     <h2>Sedimentación convectiva en plumas fluviales</h2>
     <p class="lead">Proyecto desarrollado durante el <b>Summer Program 2026 del Center for Turbulence Research (CTR)</b> de Stanford University. Los ríos alimentados por glaciares, como los de la Patagonia, descargan agua dulce cargada de sedimento fino hacia fiordos y mares interiores salados. Simulamos en 2D un canal de agua dulce con sedimentos que descarga en un tanque de agua salada, siguiendo la configuración de laboratorio de Yuan y Horner-Devine (2013).</p>
-    <p class="note">En la interfaz entre la pluma y el agua salada compiten dos mecanismos: los vórtices producidos por el <b>corte</b> y las inestabilidades de <b>Rayleigh–Taylor</b> generadas por la sedimentación, que pueden llevar sedimento hacia abajo mucho más rápido que la velocidad de caída de las partículas. El número de Froude densimétrico <i>Fr<sub>d</sub></i> = 1/√<i>Ri</i> controla los vórtices, y la razón de densidades <i>R</i>, la frecuencia de los eventos de Rayleigh–Taylor. Cada video muestra la velocidad horizontal <i>u</i>, la velocidad vertical <i>w</i>, la salinidad <i>S</i> y la concentración de sedimentos <i>C<sub>s</sub></i>.</p>
-    <h3>Razón de densidades <i>R</i> = 0,9</h3>
-    <div class="grid wide">
+    <p class="note">En la interfaz entre la pluma y el agua salada compiten dos mecanismos: los vórtices producidos por el <b>corte</b> y las inestabilidades de <b>Rayleigh–Taylor</b> generadas por la sedimentación, que pueden llevar sedimento hacia abajo mucho más rápido que la velocidad de caída de las partículas. El número de Froude densimétrico <i>Fr<sub>d</sub></i> = 1/√<i>Ri</i> controla los vórtices, y la razón de densidades <i>R</i>, la frecuencia de los eventos de Rayleigh–Taylor. El video muestra la concentración de sedimentos <i>C<sub>s</sub></i>.</p>
+    <h3>Subcrítico y supercrítico, razones de densidades <i>R</i> = 0,7 y 0,9</h3>
+    <div class="grid wide" style="grid-template-columns:1fr">
       <figure>
-        <video src="videos/ctr/2DRE1260RI400R09.mp4" poster="thumbs/2DRE1260RI400R09.jpg" controls loop muted playsinline preload="none"></video>
-        <figcaption><b>Subcrítico: <i>Fr<sub>d</sub></i> = 0,50, <i>Re</i> = 1260</b><span>La interfaz se mantiene nítida con vórtices pequeños; las inestabilidades de Rayleigh–Taylor transportan sedimento hacia la capa salada.</span><br><code>2DRE1260RI400R09</code></figcaption>
-      </figure>
-      <figure>
-        <video src="videos/ctr/2DRE3155RI071R09.mp4" poster="thumbs/2DRE3155RI071R09.jpg" controls loop muted playsinline preload="none"></video>
-        <figcaption><b>Supercrítico: <i>Fr<sub>d</sub></i> = 1,19, <i>Re</i> = 3155</b><span>Grandes vórtices coherentes dominan el intercambio en la interfaz.</span><br><code>2DRE3155RI071R09</code></figcaption>
+        <video src="videos/ctr/movie_C_Fr050_Fr169.mp4" poster="thumbs/movie_C_Fr050_Fr169.jpg" controls loop muted playsinline preload="none"></video>
+        <figcaption><b>Subcrítico (<i>Fr<sub>d</sub></i> = 0,50, <i>Re</i> = 1260) y supercrítico (<i>Fr<sub>d</sub></i> = 1,69, <i>Re</i> = 2525)</b><span>Concentración de sedimentos <i>C<sub>s</sub></i> con <i>R</i> = 0,7 (arriba) y <i>R</i> = 0,9 (abajo). En el caso subcrítico la interfaz se mantiene nítida con vórtices pequeños, mientras que en el supercrítico dominan grandes vórtices coherentes. Al aumentar <i>R</i>, las inestabilidades de Rayleigh–Taylor bajo la interfaz son más frecuentes y llevan sedimento hacia la capa salada.</span><br><code>movie_C_Fr050_Fr169</code></figcaption>
       </figure>
     </div>
     </div>
