@@ -2,7 +2,7 @@
 
 Videos de simulaciones numéricas de flujos estratificados, plumas y crecidas, desarrolladas por **Tim Redel** en el Departamento de Ingeniería Hidráulica y Ambiental de la Pontificia Universidad Católica de Chile.
 
-**Sitio web:** `https://<usuario>.github.io/<repositorio>/`
+**Sitio web:** <https://timoredel.github.io/IAHR26_Redel/>
 
 Este repositorio aloja la página de videos complementarios del póster *Dinámica de las plumas subglaciales y la intrusión de agua de mar en la interfaz hielo-océano*, presentado en el XXXII Congreso Latinoamericano de Hidráulica (IAHR 2026, Valparaíso – Viña del Mar).
 
@@ -24,9 +24,9 @@ Detalle de cada video en [`videos/subglacial`](videos/subglacial/).
 
 Proyecto desarrollado durante el **Summer Program 2026 del Center for Turbulence Research (CTR)**, Stanford University. Un canal de agua dulce con sedimentos descarga en un tanque de agua salada (Yuan y Horner-Devine, 2013). En la interfaz compiten los vórtices producidos por el corte y las inestabilidades de Rayleigh–Taylor generadas por la sedimentación.
 
-| Subcrítico (*Fr*<sub>d</sub> = 0,50) | Supercrítico (*Fr*<sub>d</sub> = 1,19) |
-|---|---|
-| [![Subcrítico](thumbs/2DRE1260RI400R09.jpg)](videos/ctr/2DRE1260RI400R09.mp4) | [![Supercrítico](thumbs/2DRE3155RI071R09.jpg)](videos/ctr/2DRE3155RI071R09.mp4) |
+Subcrítico (*Fr*<sub>d</sub> = 0,50) y supercrítico (*Fr*<sub>d</sub> = 1,69), con razones de densidades *R* = 0,7 (arriba) y 0,9 (abajo):
+
+[![Subcrítico y supercrítico](thumbs/movie_C_Fr050_Fr169.jpg)](videos/ctr/movie_C_Fr050_Fr169.mp4)
 
 Detalle de cada video en [`videos/ctr`](videos/ctr/).
 
